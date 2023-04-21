@@ -4,7 +4,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/sinhnx-dev/golang-examples/basic/go-package/custome-pkg/number"
+	"github.com/sinhnx-dev/golang-examples/tree/main/basic/go-package/custom-pkg/number"
 )
 
 func main() {
