@@ -1,13 +1,6 @@
-package main
-
-// import the custom package calculator
-import (
-	"fmt"
-
-	"github.com/sinhnx-dev/golang-examples/basic/go-package/custom-pkg/number"
-)
+package number
 
 func main() {
-	i := 5
-	fmt.Printf("%d is prime %t\n", i, number.IsPrime(5))
+	// t := numbers.IsPrime(5)
+	// fmt.Printf("%t", t)
 }
