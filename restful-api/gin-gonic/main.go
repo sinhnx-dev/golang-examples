@@ -17,6 +17,7 @@ func main() {
 	// 	})
 	// }
 	router := gin.Default()
+	controllers.SetupItemsRouter(router)
 	controllers.SetupItemRouter(router)
 	router.Run(":2011")
 }
