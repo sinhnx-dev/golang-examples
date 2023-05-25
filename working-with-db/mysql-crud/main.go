@@ -49,4 +49,7 @@ func main() {
 			fmt.Println("delete completed.")
 		}
 	}
+
+	// _, err := db.Exec("DELETE FROM Items WHERE item_id=1")  //OK
+	// _, err := db.Query("DELETE FROM Items WHERE item_id=1") //BAD
 }
