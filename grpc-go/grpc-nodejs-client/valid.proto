@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option go_package = "sinhnx.dev/grpc/valid-service/valid";
+
+package valid;
+
+message StringData {
+  string data = 1;
+}
+message BoolValue {
+  bool value = 1;
+}
+service ValidService {
+  rpc ValidEmail(StringData) returns (BoolValue) {}
+}
